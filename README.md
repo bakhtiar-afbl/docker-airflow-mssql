@@ -16,14 +16,14 @@ Modify the `docker-compose.yml` file to change the Airflow port (default is 9099
 - Navigate to your project location.
 - Execute the following commands:
 
-  docker build -t airflow-sqlserver -f Dockerfile . --no-cache
-  docker-compose up
+    docker build -t airflow-sqlserver -f Dockerfile . --no-cache
+    docker-compose up
 
 
 ## Access Airflow UI
 - Once the process is complete, access the Airflow UI in your browser:
 
-http://localhost:9099/
+  http://localhost:9099/
 
 Replace `9099` with the port you specified if changed.
 
